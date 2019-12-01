@@ -5,121 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Video and Parallax</title>
-    <link rel="stylesheet" href="css/video.css">
-    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="revealator-master/revealator-master/fm.revealator.jquery.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+  <div class="container-fluid p-0">
 
-
-  <div class="homepage-hero-module parallax-main">
-      <div class="video-container height-vh">
-        <div class="filter"></div>
-        
-        <div class="poster hidden ">
-          <img src="video/snapshots/Working-Space.jpg" alt="IMG" id="img-poster">
-        </div>
-        <video id="video-poster" autoplay loop muted playsinline src="video/MP4/Working-Space.mp4" class="fillWidth"></video>
-      </div>
-    </div>
-  <!-- VIDEO BLOCK END -->
-  <div class="wrap "> </div>
-  <header> 
-     <div class="container-fluid height-vh">
-       <div class="row line-header">
-            <nav class=" offset-0 offset-lg-6 navbar navbar-expand-lg navbar-light mt-5">
-             
-              <button class="navbar-toggler bg-blue_main " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse position-relative " id="navbarNavAltMarkup">
-                <div class="navbar-nav nv-bar ">
-                  <a class="nav-item nav-link active  my-1" href="#">Главная <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link my-1" href="#">Наши проекты</a>
-                  <a class="nav-item nav-link my-1" href="#">Услуги</a>
-                  <a class="nav-item nav-link my-1" href="#">Новости</a>
-                  <a class="nav-item nav-link my-1" href="#">Контакты</a>
-                 
-                </div>
+     <div class="main-bg-section parallax-cont-main"></div>  
+   
+     <div class="main-section parallax-cont-down">
+              <header class=" line-header"> 
+                      <nav class="navbar navbar-expand-lg navbar-dark ">
+                          
+                          <button class="navbar-toggler  bg-blue_main " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse row ml-1 mt-lg-3 " id="navbarNav">
+                            <ul class="navbar-nav offset-0 pl-3 offset-lg-6">
+                              <li class="  nav-item active">
+                                <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Наши проекты</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Услуги</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Новости</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Контакты</a>
+                              </li>
+                            
+                            </ul>
+                          </div>
+                        </nav>
+              </header>
+              <div class ="  h-75 container d-flex flex-column justify-content-center align-items-center">
+                <p class=" text-white"> Передовая IT студия</p>
+                <h1>Мы создаем легкие решения <br> сложных задач и проблем</h1>
+                <a href="#" class=" main-btn-1 mt-4"> Наши проекты  </a>
               </div>
-            </nav>
-        </div>
+    </div>
 
-          <div class=" main-page h-75 d-flex flex-column justify-content-center parallax-cont-up">
-            <span class=" d-block text-center mb-3"> Передовая IT студия </span>
-              <h1>Мы создаем легкие решения <br> сложных задач и проблем</h1>
-              <div class="text-center  mt-4"> <a href="#" class="d-inline-block rounded-pill px-5 py-3 bg-blue_main text-white text-decoration-none font-weight-normal"> Наши проекты </a> </div>
+  </div>
+  <section class="container section text-center"> 
+     <div class=" w-75 mx-auto"> 
+        <h2 class="mx-auto" >Мы создаем мобильные приложения для крупных корпораций</h2>
+        <p class=" paragraph-grey text-center w-75 mt-4 mx-auto"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+     </div> 
+
+     <div class="mt-4 d-flex flex-column flex-lg-row"> 
+          
+            <div class=" d-flex align-items-center featured-item">
+                    <span> <span>  <img src="img/project.svg" alt="PROJECT"> </span> </span>
+                    <div class="featured-text"> 
+                      <h5> Создание сайтов </h5>
+                      <p> Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                    </div>
             </div>
-
-
+            <div class=" d-flex align-items-center featured-item">
+                    <span> <span>  <img src="img/project.svg" alt="PROJECT"> </span> </span>
+                    <div class="featured-text"> 
+                      <h5> Создание сайтов </h5>
+                      <p> Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                    </div>
+            </div>
+            <div class=" d-flex align-items-center featured-item">
+                    <span> <span>  <img src="img/project.svg" alt="PROJECT"> </span> </span>
+                    <div class="featured-text"> 
+                      <h5> Создание сайтов </h5>
+                      <p> Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                    </div>
+            </div>
+              
      </div>
- 
-  
-</header>
 
+     <a href="#" class=" main-btn-2 mt-4"> <span> Все услуги </span>   </a>
+  </section>
 
-<section class=" section first-section container-fluid bg-white">
-      <div class="first-section-content ">
-          <!--   у элемента выше был удален класс -     parallax-cont-down -->
-          <h2 class=" text-center"> Мы создаем мобильные приложения  для крупных корпораций </h2>
-          <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-          <div class="first-section-featured d-flex justify-content-between w-100 new-container"> 
-              <div class=" featured-item"> 
-                <img src="img/project.svg" alt="ALT">
-                <div>
-                  <span>Создание сайтов</span>
-                  <p>Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
-                </div>
-              </div>
-              <div class=" featured-item"> 
-                <img src="img/project.svg" alt="ALT">
-                <div>
-                  <span>Создание сайтов</span>
-                  <p>Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
-                </div>
-              </div>
-              <div class=" featured-item"> 
-                <img src="img/project.svg" alt="ALT">
-                <div>
-                  <span>Создание сайтов</span>
-                  <p>Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
-                </div>
-              </div>
-             
-          </div>
-      
-              <div class="text-center  mt-4"> <a href="#" class="d-inline-block rounded-pill px-5 py-3 bg-blue_main text-white text-decoration-none font-weight-normal"> Все услуги </a> </div>
-         
-      </div>
-</section>
-<section class=" section second-section container-fluid">
-    <div class="container"> 
-          <div class="row ">
-              <!--  -->
-              <div class="col-5 revealator-slideright revealator-delay1 revealator-once">
-                <h2> Высокие стандарты разработки </h2>
-                <p> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a href="#" class=" text-blue_main mt-4 d-inline-block border-bottom border-blue_main text-decoration-none">  Подробнеее о компании </a>
-
-              </div>
-              <!--  -->
-              <div class=" offset-1 col-5 "> <img src="img/img2.png" alt="IMG" class=" revealator-slideleft revealator-delay1 revealator-once " ></div>
-          </div>
+<div class="container-fluid bg-light-grey"> 
+  <section class=" section container ">
+    <div class="row">
+        <div class="col-12 col-md-6 revealator-slideright revealator-delay1 revealator-once "> 
+            <h2 class=" my-4 ">Высокие стандарты разработки</h2>
+            <p class=" paragraph-grey w-75">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <a href="#" class=" my-4 d-inline-block border-bottom border-blue_main text-decoration-none"> Подробнее о компании </a>          
+        </div>
+        <div class="col-6 d-none d-md-block revealator-slideleft revealator-delay3 revealator-once"> 
+          <img src="img/img2.png" alt="alt" class=" img-fluid">
+        </div>
     </div>
-</section>
+    <div class=" line-product "> </div>
+
+
+  </section>
+</div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/video.js"></script>
-    <!-- <script src="js/wow.min.js"></script> -->
     <script src="revealator-master/revealator-master/fm.revealator.jquery.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- <script>
-      new WOW().init();
-    </script> -->
+   
     
    
 </body>

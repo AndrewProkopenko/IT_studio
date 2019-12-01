@@ -1,80 +1,45 @@
 .section { 
     padding-top: 100px;
     padding-bottom: 100px;
-    
 } 
-.new-container { 
-    max-width: 1200px;
-    margin: auto;
-}
-
-.first-section-content { 
-    
-    margin: 0 150px;
-    h2 { 
-        font-weight: bold;
-        font-size: 2.5em;
-        line-height: 50px;
-        text-align: center;
-        max-width: 750px;
-        margin: auto;
-    }
-    >p { 
-        font-size: 1.2em;
-        line-height: 25px;
-        text-align: center;
-        color: #999999;
-        max-width: 750px;
-        margin: auto;
-        margin-top: 50px;
-    }
-     .first-section-featured { 
-         margin-top: 50px;
-         margin-bottom: 50px;
-     } 
-}
 .featured-item { 
-    display: flex;
-    // background: rgb(170, 170, 170);
-    width: 30%;
-    text-align: none;
-    img { 
-        padding: 10px;
-        margin: 20px;
-    }
-    >div { 
-        flex-grow: 1;
-        span { 
-            font-weight: 600;
-            font-size: 1.25em;
-            line-height: 22px;
-            color: #000000;
+    >span { 
+        >span { 
+        display: flex; 
+        justify-content: center;
+        margin: 15px;
+        border: #4985FF 1px solid;
+        border-radius: 100%;
+        min-width: 80px;
+        height: 80px;
+        img { 
+            transform: translateX(-3px);
+             } 
         }
-        p { 
-            margin: 0;
-            line-height: 22px;
-            color: #999999;
-            font-size: 14px;
-        }
-
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border: #E0E0E0 1px solid;
+        border-radius: 100%;
+        min-width:100px;
+        height: 100px;
+          
     }
 }
-.second-section { 
-    background: #F6F6F8 !important;
-   
-    h2 { 
-        font-weight: bold;
-        font-size: 2.5em;
-        line-height: 50px;
+.featured-text { 
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    h5 { 
+        color: #000; 
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
     }
     p { 
-        margin-top: 40px;
-        font-style: 1.2rem;
-        font-size: 16px;
-        line-height: 25px;
-        color: map-get($theme-colors, "grey" );
+        
+        font-size: 14px;
+        line-height: 22px;
+        color: #999999;
     }
-}
-*[class*="parallax-cont"] { 
-    transition: 250ms linear;
 }

@@ -8,15 +8,14 @@ $theme-colors: (
 );
 
 $line-grey : #E0E0E0;
+
 .bg-blue-block { 
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
 }
 
 $enable-responsive-font-sizes: true;
 
-body { 
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 14px !important;
- }
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic');
+
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss'; 

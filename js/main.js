@@ -4,10 +4,15 @@ $(window).scroll(function() {
     $(".parallax-cont-up").css({ 
         "transform" : "translate(0%, " +  - st / 100   + "%"  
     }); 
+   
 
     $(".parallax-cont-down").css({ 
         "transform" : "translate(0%, " +  st / 100  + "%"  
     })
+
+    $(".parallax-cont-main").css({ 
+        "transform" : "translate(0%, " +  - st/50   + "%"  
+    }); 
 
 }) ;
 
