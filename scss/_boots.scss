@@ -11,6 +11,9 @@ $line-grey : #E0E0E0;
 
 .bg-blue-block { 
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 450px;
+    position: absolute;
+    z-index: -1; 
 }
 
 $enable-responsive-font-sizes: true;

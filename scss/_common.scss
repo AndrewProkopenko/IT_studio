@@ -87,7 +87,8 @@ h2 {
             border-radius: 100%;
             // background: darkorange;
             background: lighten( map-get($theme-colors, "blue_main") , 10%);
-            animation: button-2_1 1400ms; 
+            // animation: button-2_1 2500ms; 
+            animation: button-2_1 500ms; 
             animation-fill-mode: forwards;
         } 
         &::before{  
@@ -102,7 +103,8 @@ h2 {
             height: 10px;
             border-radius: 100%;
             background: darken( map-get($theme-colors, "blue_main") , 30%);
-            animation: button-2_2 1800ms; 
+            animation: button-2_2 800ms; 
+            // animation: button-2_2 2800ms; 
             animation-fill-mode: forwards;
         } 
       
@@ -158,7 +160,7 @@ h2 {
     } 
     
    100% { 
-        transform: scale(40); 
+        transform: scale(16);  
     } 
 } 
 @keyframes button-2_2 { 
@@ -169,7 +171,7 @@ h2 {
     }
     
     
-    50% { 
+    60% { 
         transform: translateX(0px);
     } 
     
