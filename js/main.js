@@ -14,5 +14,11 @@ $(window).scroll(function() {
         "transform" : "translate(0%, " +  - st/50   + "%"  
     }); 
 
+    $(".scroll-image").css({ 
+        "top" : -500 + st/10   + "px"  
+    }); 
+    console.log(st);
+
 }) ;
+console.log('ontouchstart' in window);
 
